@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>RandomThings</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="d-flex justify-content-center">Random Tools written in JS</h1>
+    </div>
+
+    <div class="container">
+        <h2>Random Number</h2>
+        <div class="row">
+            <div class="col" style="Max-width: 150px;">
+                <label for="randIntMin">Minimum</label>
+                <input class="form-control" id="randIntMin" type="number">
+            </div>
+            <div class="col" style="Max-width: 150px;">
+                <label for="randIntMax">Maximum</label>
+                <input class="form-control" id="randIntMax" type="number">
+            </div>
+        </div>
+        <button class="btn btn-primary my-2" id="randIntBtn">Generate</button><br>
+        <p>Your number is: <span id="randInt"></span></p>
+    </div>
+
+    <div class="container">
+        <h2>Random Color</h2>
+        <button class="btn btn-primary my-2" id="randColorBtn">Generate</button>
+        <p>Your color is: <span id="randColor"></span></p>
+    </div>
+
+    <script src="randomThings.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
